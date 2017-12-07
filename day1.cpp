@@ -30,10 +30,10 @@ int solve_captcha_follow_up(const char *s) {
 }
 
 int main() {
-    // printf("%d\n", solve_captcha("1122"));
-    // printf("%d\n", solve_captcha("1111"));
-    // printf("%d\n", solve_captcha("1234"));
-    // printf("%d\n", solve_captcha("91212129"));
+    printf("%d\n", solve_captcha("1122"));
+    printf("%d\n", solve_captcha("1111"));
+    printf("%d\n", solve_captcha("1234"));
+    printf("%d\n", solve_captcha("91212129"));
 
     printf("%d\n", solve_captcha_follow_up("1212"));
     printf("%d\n", solve_captcha_follow_up("1221"));
