@@ -43,8 +43,10 @@ int main() {
 
     char s[3000];
     freopen("inputs/day1.in", "r", stdin);
+
     scanf("%s", s);
     printf("%d\n", solve_captcha(s));
     printf("%d\n", solve_captcha_follow_up(s));
+    
     return 0;
 }
